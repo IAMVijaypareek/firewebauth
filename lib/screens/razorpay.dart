@@ -86,7 +86,7 @@ class _RazorPayPaymentState extends State<RazorPayPayment> {
 
   void openCheckout() async {
     var options = {
-      'key': 'rzp_test_ExHijNZAnz8Jna',
+      'key': 'paste_your_key_here',
       'amount': widget.itemPrice * 100,
       //'amount': totalAmount * 100,
       'name': 'flutterdemorazorpay',
